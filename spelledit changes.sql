@@ -1,3 +1,5 @@
+-- Client changes for spells
+
 select id, SpellName from spell_template;
 select * from spell_template where SpellName like "%Bloodlust%";
 
@@ -41,3 +43,11 @@ select * from spelledit1.spell where SpellName0 like "%Anesthetic Poison%";
 UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '26688');
 
 select * from spelledit1.spell where SpellName0 like "Cold Blood";
+
+select * from spelledit1.spell where ID in (13705, 13832, 13843, 13844, 13845);
+
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13705');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13832');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13843');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13844');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13845');
