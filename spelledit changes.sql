@@ -51,3 +51,22 @@ UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13832');
 UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13843');
 UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13844');
 UPDATE `spelledit1`.`spell` SET `EffectBaseDice2` = '1' WHERE (`ID` = '13845');
+
+select * from spelledit1.spell where ID in (13709, 13800, 13801, 13802, 13803);
+select * from spelledit1.spell where spellname0 like "Serra%";
+
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice1` = '1', `EffectBaseDice2` = '0' WHERE (`ID` = '13709');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice1` = '1', `EffectBaseDice2` = '0' WHERE (`ID` = '13800');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice1` = '1', `EffectBaseDice2` = '0' WHERE (`ID` = '13801');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice1` = '1', `EffectBaseDice2` = '0' WHERE (`ID` = '13802');
+UPDATE `spelledit1`.`spell` SET `EffectBaseDice1` = '1', `EffectBaseDice2` = '0' WHERE (`ID` = '13803');
+UPDATE `spelledit1`.`spell` SET `EquippedItemClass` = '-1', `EquippedItemSubClassMask` = '0' WHERE (`ID` = '13709');
+UPDATE `spelledit1`.`spell` SET `EquippedItemClass` = '-1', `EquippedItemSubClassMask` = '0' WHERE (`ID` = '13800');
+UPDATE `spelledit1`.`spell` SET `EquippedItemClass` = '-1', `EquippedItemSubClassMask` = '0' WHERE (`ID` = '13801');
+UPDATE `spelledit1`.`spell` SET `EquippedItemClass` = '-1', `EquippedItemSubClassMask` = '0' WHERE (`ID` = '13802');
+UPDATE `spelledit1`.`spell` SET `EquippedItemClass` = '-1', `EquippedItemSubClassMask` = '0' WHERE (`ID` = '13803');
+
+
+select * from spelledit1.spell where id = 53096;
+
+
